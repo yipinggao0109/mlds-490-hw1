@@ -1,0 +1,36 @@
+[
+  {
+    "run": "results/lr_0_0005/cartpole_none_seed490",
+    "environment": "cartpole",
+    "baseline": "none",
+    "learning_rate": 0.0005,
+    "training_episodes": 3000,
+    "first_100_mean": 32.48,
+    "last_100_mean": 108.31,
+    "last_500_standard_deviation": 74.99922268930526,
+    "best_100_episode_mean": 497.86,
+    "best_window_end_episode": 2372,
+    "evaluation_episodes": 500,
+    "evaluation_mean": 88.706,
+    "evaluation_standard_deviation": 25.315046197864227,
+    "evaluation_minimum": 34.0,
+    "evaluation_maximum": 119.0
+  },
+  {
+    "run": "results/lr_0_0003/cartpole_value_seed490",
+    "environment": "cartpole",
+    "baseline": "value",
+    "learning_rate": 0.0003,
+    "training_episodes": 5000,
+    "first_100_mean": 18.78,
+    "last_100_mean": 431.45,
+    "last_500_standard_deviation": 91.78624506972709,
+    "best_100_episode_mean": 488.1700000000001,
+    "best_window_end_episode": 4549,
+    "evaluation_episodes": 500,
+    "evaluation_mean": 470.18,
+    "evaluation_standard_deviation": 57.37330041055682,
+    "evaluation_minimum": 97.0,
+    "evaluation_maximum": 500.0
+  }
+]

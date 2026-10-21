@@ -1,0 +1,78 @@
+{
+  "assumptions": {
+    "event_order": "decision, dispatch and holding cost, then arrivals",
+    "overflow_rule": "clip the next state at 200 passengers",
+    "terminal_cost": 0.0
+  },
+  "finite_horizon": 500,
+  "value_iteration_iterations": 519,
+  "policy_iteration_iterations": 6,
+  "value_iteration_bellman_residual": 9.413270163349807e-11,
+  "policy_iteration_bellman_residual": 9.094947017729282e-13,
+  "vi_pi_max_value_gap": 1.8649188859853894e-09,
+  "finite_infinite_max_value_gap": 3.0763658287469298e-09,
+  "vi_pi_policy_agreement": 1.0,
+  "first_dispatch_state": 13,
+  "comparative_statics": [
+    {
+      "experiment": "dispatch_cost",
+      "parameter_value": 60.0,
+      "first_dispatch_state": 12,
+      "bellman_residual": 9.5042196335271e-11
+    },
+    {
+      "experiment": "dispatch_cost",
+      "parameter_value": 80.0,
+      "first_dispatch_state": 12,
+      "bellman_residual": 9.367795428261161e-11
+    },
+    {
+      "experiment": "dispatch_cost",
+      "parameter_value": 100.0,
+      "first_dispatch_state": 13,
+      "bellman_residual": 9.413270163349807e-11
+    },
+    {
+      "experiment": "dispatch_cost",
+      "parameter_value": 120.0,
+      "first_dispatch_state": 13,
+      "bellman_residual": 9.276845958083868e-11
+    },
+    {
+      "experiment": "dispatch_cost",
+      "parameter_value": 140.0,
+      "first_dispatch_state": 14,
+      "bellman_residual": 9.094947017729282e-11
+    },
+    {
+      "experiment": "holding_cost",
+      "parameter_value": 1.0,
+      "first_dispatch_state": 14,
+      "bellman_residual": 9.367795428261161e-11
+    },
+    {
+      "experiment": "holding_cost",
+      "parameter_value": 1.5,
+      "first_dispatch_state": 14,
+      "bellman_residual": 9.322320693172514e-11
+    },
+    {
+      "experiment": "holding_cost",
+      "parameter_value": 2.0,
+      "first_dispatch_state": 13,
+      "bellman_residual": 9.413270163349807e-11
+    },
+    {
+      "experiment": "holding_cost",
+      "parameter_value": 2.5,
+      "first_dispatch_state": 12,
+      "bellman_residual": 9.094947017729282e-11
+    },
+    {
+      "experiment": "holding_cost",
+      "parameter_value": 3.0,
+      "first_dispatch_state": 12,
+      "bellman_residual": 9.185896487906575e-11
+    }
+  ]
+}

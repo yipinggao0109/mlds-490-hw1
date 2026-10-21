@@ -1,0 +1,36 @@
+[
+  {
+    "run": "results/pong_mlp_batch10_lr_0_001/pong_none_seed490",
+    "environment": "pong",
+    "baseline": "none",
+    "learning_rate": 0.001,
+    "training_episodes": 5000,
+    "first_100_mean": -20.6,
+    "last_100_mean": 6.36,
+    "last_500_standard_deviation": 6.60250225293411,
+    "best_100_episode_mean": 8.01,
+    "best_window_end_episode": 4814,
+    "evaluation_episodes": 500,
+    "evaluation_mean": 7.53,
+    "evaluation_standard_deviation": 6.166449545727266,
+    "evaluation_minimum": -16.0,
+    "evaluation_maximum": 20.0
+  },
+  {
+    "run": "results/pong_mlp_batch10_lr_0_001/pong_value_seed490",
+    "environment": "pong",
+    "baseline": "value",
+    "learning_rate": 0.001,
+    "training_episodes": 5000,
+    "first_100_mean": -20.27,
+    "last_100_mean": 9.07,
+    "last_500_standard_deviation": 5.6230024008531245,
+    "best_100_episode_mean": 9.219999999999999,
+    "best_window_end_episode": 4995,
+    "evaluation_episodes": 500,
+    "evaluation_mean": 8.6,
+    "evaluation_standard_deviation": 5.797585704411795,
+    "evaluation_minimum": -11.0,
+    "evaluation_maximum": 19.0
+  }
+]

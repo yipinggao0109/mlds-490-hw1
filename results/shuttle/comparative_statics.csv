@@ -1,0 +1,11 @@
+experiment,parameter_value,first_dispatch_state,bellman_residual
+dispatch_cost,60.0,12,9.5042196335271e-11
+dispatch_cost,80.0,12,9.367795428261161e-11
+dispatch_cost,100.0,13,9.413270163349807e-11
+dispatch_cost,120.0,13,9.276845958083868e-11
+dispatch_cost,140.0,14,9.094947017729282e-11
+holding_cost,1.0,14,9.367795428261161e-11
+holding_cost,1.5,14,9.322320693172514e-11
+holding_cost,2.0,13,9.413270163349807e-11
+holding_cost,2.5,12,9.094947017729282e-11
+holding_cost,3.0,12,9.185896487906575e-11

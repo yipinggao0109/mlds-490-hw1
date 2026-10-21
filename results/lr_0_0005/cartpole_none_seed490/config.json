@@ -1,0 +1,15 @@
+{
+  "env": "cartpole",
+  "baseline": "none",
+  "episodes": 3000,
+  "seed": 490,
+  "learning_rate": 0.0005,
+  "gamma": null,
+  "value_coefficient": 0.5,
+  "entropy_coefficient": 0.0,
+  "max_grad_norm": 5.0,
+  "checkpoint_every": 100,
+  "update_batch_size": 1024,
+  "device": "cpu",
+  "resolved_gamma": 0.95
+}

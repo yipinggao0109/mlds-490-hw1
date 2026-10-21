@@ -1,0 +1,3 @@
+run,environment,baseline,learning_rate,training_episodes,first_100_mean,last_100_mean,last_500_standard_deviation,best_100_episode_mean,best_window_end_episode,evaluation_episodes,evaluation_mean,evaluation_standard_deviation,evaluation_minimum,evaluation_maximum
+results/pong_mlp_batch10_lr_0_001/pong_none_seed490,pong,none,0.001,5000,-20.6,6.36,6.60250225293411,8.01,4814,500,7.53,6.166449545727266,-16.0,20.0
+results/pong_mlp_batch10_lr_0_001/pong_value_seed490,pong,value,0.001,5000,-20.27,9.07,5.6230024008531245,9.219999999999999,4995,500,8.6,5.797585704411795,-11.0,19.0

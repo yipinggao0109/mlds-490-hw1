@@ -1,0 +1,9 @@
+{
+  "episodes": 500,
+  "policy": "stochastic",
+  "mean_reward": 7.53,
+  "standard_deviation": 6.166449545727266,
+  "minimum_reward": -16.0,
+  "maximum_reward": 20.0,
+  "mean_episode_length": 3302.498
+}

@@ -1,0 +1,9 @@
+{
+  "environment": "pong",
+  "episodes": 500,
+  "mean_reward": -20.492,
+  "standard_deviation": 0.8520187791357653,
+  "minimum_reward": -21.0,
+  "maximum_reward": -16.0,
+  "mean_episode_length": 1009.65
+}

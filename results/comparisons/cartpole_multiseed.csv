@@ -1,0 +1,7 @@
+run,environment,baseline,learning_rate,training_episodes,first_100_mean,last_100_mean,last_500_standard_deviation,best_100_episode_mean,best_window_end_episode,evaluation_episodes,evaluation_mean,evaluation_standard_deviation,evaluation_minimum,evaluation_maximum
+results/lr_0_0005/cartpole_none_seed490,cartpole,none,0.0005,3000,32.48,108.31,74.99922268930526,497.86,2372,500.0,88.706,25.315046197864227,34.0,119.0
+results/multiseed/cartpole_none_seed491,cartpole,none,0.0005,3000,10.57,9.36,0.7308378753184595,10.570000000000002,100,,,,,
+results/multiseed/cartpole_none_seed492,cartpole,none,0.0005,3000,14.48,9.35,0.7332230220062652,14.480000000000002,100,,,,,
+results/lr_0_0003/cartpole_value_seed490,cartpole,value,0.0003,5000,18.78,431.45,91.78624506972709,488.1700000000001,4549,500.0,470.18,57.37330041055682,97.0,500.0
+results/multiseed/cartpole_value_seed491,cartpole,value,0.0003,5000,22.37,484.88,106.93410073498539,486.17,4971,,,,,
+results/multiseed/cartpole_value_seed492,cartpole,value,0.0003,5000,20.2,489.63,110.81628840563106,489.63,4993,,,,,
