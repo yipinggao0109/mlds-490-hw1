@@ -87,14 +87,6 @@ python scripts/compare_runs.py \
   --output-dir results/comparisons --name pong_final_comparison
 ```
 
-## Build the report
-
-```bash
-cd report
-latexmk -pdf -interaction=nonstopmode -halt-on-error report.tex
-cp report.pdf mlds490_hw1_report.pdf
-```
-
 ## Reproducibility notes
 
 - Every command records its seed and hyperparameters in `config.json`.
